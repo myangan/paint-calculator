@@ -12,7 +12,7 @@ export default function Body() {
     setVal(e.target.value);
   }
   return (
-    <div className="Main">
+    <div className="Main" data-testid="body">
       <p className="mainP">
         Paint is sold in various container sizes. The most common sizes are- 1
         litre, 2.5 litres, 5 litres, 10 litres. Some paint manufactures package
