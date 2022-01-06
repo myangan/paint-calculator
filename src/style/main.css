@@ -1,0 +1,22 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  background: #f7ff00;
+  background: -webkit-linear-gradient(to right, #f7ff00, #db36a4);
+  background: linear-gradient(to right, #f7ff00, #db36a4);
+  height: 90vh;
+}
+.mainP {
+  width: 50%;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.Choice {
+  padding-bottom: 10px;
+}
